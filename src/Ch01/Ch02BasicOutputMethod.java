@@ -2,7 +2,8 @@ package Ch01;
 
 public class Ch02BasicOutputMethod {
 
-	public static void main(String[] args) {
+	public static void 
+(String[] args) {
 		//System.out : 표준 출력 스트림(해석 : 표준출력장치(모니터)에 데이터 전달)
 		
 		//System.out.print() : 콘솔화면에 내용 출력
@@ -77,10 +78,12 @@ public class Ch02BasicOutputMethod {
 		System.out.printf("%5c\n",'*');
 		System.out.printf("%6s\n","***");
 		System.out.printf("%7s\n","*****");
-		System.out.printf("%8s\n","*******");
+		System.out.printf("%8s\n","*******"); 
 		System.out.printf("%7s\n","*****");
 		System.out.printf("%6s\n","***");
 		System.out.printf("%5c",'*');
+		
+		System.out.println("GitHub TEST");
 		}
 
 }
